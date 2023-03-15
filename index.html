@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Games4Sale</title>
+  </head>
+  <style>
+    .createAccount {
+  
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+      <h1>We Have Games4Sale!</h1>
+      <form action="index.php" method="post">
+      <p>Please select which game you would like to purchase.</p>
+        <p>Here are the 4 most popular!</p>
+
+      <input type="radio" value="The Legend of Zelda: Breath of the Wild" name="games" />
+      <label for="The Legend of Zelda: Breath of the Wild">The Legend of Zelda: Breath of the Wild</label>
+
+      <input type="radio" value="Super Mario World" name="games" />
+      <label for="Super Mario World">Super Mario World</label>
+
+      <input type="radio" value="Portal 2" name="games" />
+      <label for="Portal 2">Portal 2</label>
+
+      <input type="radio" value="The Legend of Zelda: A Link to the Past" name="games" />
+      <label for="The Legend of Zelda: A Link to the Past">The Legend of Zelda: A Link to the Past</label>
+    </div>
+
+    <div class="w-100"></div>
+    
+ <div class="col">
+      <label for="cars">Here are more great choices:</label>
+  <select name="cars" id="cars">
+      <option value="Red Dead Redemption 2">Red Dead Redemption 2</option>
+      <option value="Half-Life 2">Half-Life 2</option>
+      <option value="Disco Elysium">Disco Elysium</option>
+      <option value="Super Mario Bros. 3">Super Mario Bros. 3</option>
+      <option value=" Grand Theft Auto V"> Grand Theft Auto V</option>
+      <option value="Hades">Hades</option>
+      <option value=" Halo 2"> Halo 2</option>
+      <option value="The Witcher 3: Wild Hunt">The Witcher 3: Wild Hunt</option>
+      <option value="The Last of Us">The Last of Us</option> 
+   </select>
+  </div>
+
+  <div class="col">
+   <div>
+    <label>Frequently bought together:</label>
+    <select name="games" id="games" multiple>
+      <option value="Call of Duty: Modern Warfare II">Call of Duty: Modern Warfare II</option>
+      <option value="Call of Duty: Vanguard ">Call of Duty: Vanguard </option>
+      <option value="Call of Duty: Black Ops Cold War">Call of Duty: Black Ops Cold War</option>
+      <option value="Call of Duty: Modern Warfare">Call of Duty: Modern Warfare</option>
+    </select>
+  </div>
+</div>
+
+  </form>
+</div>
+
+<!-- Consoles -->
+  <div class="row">
+    <div class="col">
+      <h2>We Also Have Gaming Consoles 4 Sale!</h2>
+
+      <form action="index.php" method="post">
+        <p>Please select which game console you would like to purchase.</p>
+          <p>Here are the 4 most popular!</p>
+  
+        <input type="radio" value="Nintendo Switch" name="consoles" />
+        <label for="Nintendo Switch">Nintendo Switch</label>
+  
+        <input type="radio" value="PlayStation 5" name="consoles" />
+        <label for="PlayStation 5">PlayStation 5</label>
+  
+        <input type="radio" value="Xbox one" name="consoles"  />
+        <label for="Portal 2">Xbox One</label>
+  
+        
+        <input type="radio" value="Xbox Series X" name="consoles" />
+        <label for="Xbox Series X">Xbox Series X</label>
+        
+      </div>
+
+      <div class="w-100"></div
+  
+      <div class="col">
+        <label for="cars">Here are more great choices:</label>
+    <select name="cars" id="cars">
+        <option value="PlayStation 4">PlayStation 4</option>
+        <option value="PlayStation 3">PlayStation 3</option>
+        <option value="Wii">Wii</option>
+        <option value="Wii U">Wii U</option>
+        <option value="Xbox">Xbox</option>
+        <option value="Xbox 360">Xbox 360</option>
+        <option value="Nintendo 3DS">Nintendo 3DS</option>
+        <option value="Nintendo 64 (N64)">Nintendo 64 (N64)</option>
+        <option value="Oculus Quest">Oculus Quest</option> 
+     </select>
+
+    </div>
+  
+     <div class="col"> 
+      <label>Frequently bought together:</label>
+      <input type="checkbox" name="PlayStation 3" id="console1">
+      <label for="console1">PlayStation 3</label>
+
+      <input type="checkbox" name="PlayStation Portable (PSP)" id="console2">
+      <label for="console1">PlayStation Portable (PSP)</label>
+
+      <input type="checkbox" name="PlayStation Vita" id="console3">
+      <label for="console1">PlayStation Vita</label>
+
+      <input type="checkbox" name="PlayStation" id="console4">
+      <label for="console1">PlayStation</label>
+
+      </select>
+    </div>
+  
+    </form>
+    </div>
+
+  </div>
+
+    <!-- Create Account -->
+<div class="row createAccount" >
+    <div class="col">
+      <p>Create Account</p>
+      <form action="index.php" method="post">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="comments">Comments:</label>
+        <textarea></textarea><br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  </body>
+</html>
